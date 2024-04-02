@@ -6,16 +6,18 @@
 // let ededi_orta=(eded1+eded2+eded3)/3
 // console.log(ededi_orta);
 
-// //task 2
-// let teref1=parseInt(prompt("eded daxil edin"))
-// let teref2=parseInt(prompt("eded daxil edin"))
-// let teref3=parseInt(prompt("eded daxil edin"))
-
-// if (teref1 + teref2 > teref3 && teref1 + teref3 > teref2 && teref2 + teref3 > teref1) {
-//     console.log(true)
-// }else{
-//     console.log(false);
-// }
+//task 2
+let teref1=parseInt(prompt("eded daxil edin"))
+let teref2=parseInt(prompt("eded daxil edin"))
+let teref3=parseInt(prompt("eded daxil edin"))
+if(0>teref1 || 0>teref2 ||  0>teref3){
+    console.log("duzgun parametirler verilmeyib");
+}
+else if (teref1 + teref2 > teref3 && teref1 + teref3 > teref2 && teref2 + teref3 > teref1) {
+    console.log(true)
+}else{
+    console.log(false);
+}
 
 // // task3
 // let name = prompt('name')
