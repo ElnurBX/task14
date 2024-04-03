@@ -1,11 +1,11 @@
-// task1 
+// // task1 
 // let a =parseInt(prompt('eded daxil et'))
 
 // if( 0>a  ){
 //     console.log("nə sadə nədə murekebdir ededir");
 // }else if(a===1 || a===2 || a===3){
 //     console.log("sade ededdir");
-// }else if(--a % 6 == 0){
+// }else if((a-1) % 6 == 0 || (a+1) % 6 == 0){
 //     console.log("sade ededdir");
 // }else{
 //     console.log("murekeb ededir");
